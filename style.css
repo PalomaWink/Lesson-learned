@@ -29,22 +29,21 @@ body {
 .lado-esquerdo {
     font-size: 15pt;
     font-family: 'Cutive Mono', monospace;
-    text-align: justify;
-    line-height: 20px;
+    line-height: 1.5;
     float: left;
-    width: 800px;
-    margin-right: 20px;
-    position: absolute;
+    width: 400px; 
+    margin: 20px; 
+    text-align: justify;
 }
 
 .lado-direito {
     font-size: 15pt;
-    line-height: 20px;
+    line-height: 1.5;
     font-family: 'Cutive Mono', monospace;
-    text-align: justify;
     float: right;
-    width: 800px;
-    position: relative;
+    width: 400px;
+    margin: 20px; 
+    text-align: justify;   
 }
 table , th , td {
     font-size: 21px;
