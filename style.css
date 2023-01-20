@@ -23,6 +23,9 @@ body {
     font-family: 'Cutive Mono', monospace;
 }
 
+.textos {
+    display: inline-block;
+}
 .lado-esquerdo {
     font-size: 15pt;
     font-family: 'Cutive Mono', monospace;
@@ -30,6 +33,8 @@ body {
     line-height: 20px;
     float: left;
     width: 800px;
+    margin-right: 20px;
+    position: absolute;
 }
 
 .lado-direito {
@@ -39,8 +44,9 @@ body {
     text-align: justify;
     float: right;
     width: 800px;
+    position: relative;
 }
-table, th, td {
+table , th , td {
     font-size: 21px;
     font-family: 'Cutive Mono', monospace;
     border: 1px solid;
