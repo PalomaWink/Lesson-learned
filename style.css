@@ -5,7 +5,7 @@ body {
     top: 0px;
     position: fixed;
     background-color: #E0BBE4;
-    font-family: 'Marck Script', cursive;
+    font-family: 'Cutive Mono', monospace;
 }
 
 #minha_foto {
@@ -15,22 +15,41 @@ body {
 
 #licoes_aprendidas {
     font-size: 15pt;
+    font-family: 'Cutive Mono', monospace;
 }
 
 #licoes_a_aprender {
     font-size: 15pt;
-}
-article {
-    font-size: 15pt;
-    text-align: justify;
+    font-family: 'Cutive Mono', monospace;
 }
 
-aside {
+.lado-esquerdo {
     font-size: 15pt;
+    font-family: 'Cutive Mono', monospace;
     text-align: justify;
-    line-height: 10px;
+    line-height: 20px;
+    display: inline-block;
+    margin-right: 100px;
+    width: 800px;
+}
+
+.lado-direito {
+    font-size: 15pt;
+    line-height: 20px;
+    font-family: 'Cutive Mono', monospace;
+    text-align: justify;
+    display: inline-block;
+    width: 800px;
+}
+table, th, td {
+    font-size: 21px;
+    font-family: 'Cutive Mono', monospace;
+    border: 1px solid;
+    margin: 5px;
+    padding: 1px;
 }
 #rodape {
     padding: 20px;
     color: #FEC8D8;
+    font-family: 'Cutive Mono', monospace;
 }
