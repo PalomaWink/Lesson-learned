@@ -5,10 +5,30 @@ body {
     top: 0px;
     position: fixed;
     background-color: #E0BBE4;
+    font-family: 'Marck Script', cursive;
 }
+
 #minha_foto {
     margin-top: 90px;
     border: 20px #957DAD solid;
+}
+
+#licoes_aprendidas {
+    font-size: 15pt;
+}
+
+#licoes_a_aprender {
+    font-size: 15pt;
+}
+article {
+    font-size: 15pt;
+    text-align: justify;
+}
+
+aside {
+    font-size: 15pt;
+    text-align: justify;
+    line-height: 10px;
 }
 #rodape {
     padding: 20px;
